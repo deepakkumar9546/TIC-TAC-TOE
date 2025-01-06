@@ -2,16 +2,17 @@
    margin: 0;
    padding: 0;
  }
+
 body{
    background-color: #548687;
    text-align: center;
  }
+
 .container{
    height:70vh;
    display: flex;
    justify-content: center;
    align-items: center;
-   
  }
 .game{
    height: 60vmin;
@@ -32,6 +33,7 @@ body{
    color: #b0413e;
    background-color: #ffffc7;
 }
+
 #reset-button{
    padding: 1rem;
    font-size: 1.25rem;
@@ -48,7 +50,6 @@ body{
    color:#fff;
    border-radius: 1rem;
    border:none;
-
 }
 
 #msg{
@@ -64,6 +65,7 @@ body{
    flex-direction: column;
    gap: 4rem;
 }
+
 .hide{
    display: none;
 }
